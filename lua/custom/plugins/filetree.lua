@@ -279,6 +279,6 @@ return {
       },
     }
 
-    vim.keymap.set('n', '\\', ':Neotree toggle<cr>', { desc = 'show Neotree' })
+    vim.keymap.set('n', '\\', ':Neotree reveal<cr>', { desc = 'show Neotree' })
   end,
 }
